@@ -1,28 +1,5 @@
 # terraform-project
-.
-└── terraform-project
-    ├── environment
-    │   ├── production.tfvars
-    │   └── staging.tfvars
-    ├── main.tf                         # Main entry point for the infrastructure
-    ├── modules                         # Reusable Terraform modules
-    │   ├── ec2
-    │   │   ├── main.tf
-    │   │   ├── sg.tf
-    │   │   └── vars.tf
-    │   ├── rds
-    │   │   ├── main.tf
-    │   │   ├── sg.tf
-    │   │   └── vars.tf
-    │   └── vpc
-    │       ├── main.tf
-    │       ├── nat.tf
-    │       ├── outputs.tf
-    │       └── vars.tf
-    ├── README.md
-    ├── terraform.tfstate
-    ├── terraform.tfstate.backup
-    └── vars.tf
+![alt text](<Screenshot from 2024-10-11 01-46-11.png>)
 
 ## Prerequisities:
 
